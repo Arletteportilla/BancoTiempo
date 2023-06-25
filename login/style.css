@@ -1,0 +1,179 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eaaa00;
+  }
+  
+  .contanier {
+    width: 100%;
+    display: flex;
+  }
+  
+  .contanier .div-form {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eaaa00;
+  }
+  
+  .contanier .div-form h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 50px;
+    color: #ffffff;
+
+  }
+  
+  .contanier .div-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  form .inp {
+    width: 60%;
+    margin: auto;
+    height: 70px;
+    margin-bottom: 30px;
+    border-radius: 45px;
+    background-color: #eaaa00;
+    box-shadow: 20px 20px 20px rgba(85, 17, 3, 0.444),
+      -10px -10px 20px rgba(85, 17, 3, 0.444);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .inp input {
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 20px;
+    position: relative;
+    cursor: auto;
+  }
+  
+  .inp .icon-contanier {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .inp .icon-container i {
+    margin-right: 10px;
+  }
+  
+  .inp .icon-text {
+    position: absolute;
+    left: calc(20px + 30px);
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fbfbfb;
+    font-size: 16px;
+  }
+  
+  .inp .icon-text.user {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .inp .icon-text.password {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  form .inp .i {
+    position: absolute;
+    color: rgb(243, 2, 123);
+    font-size: 30px;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  form .inp .eyes {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 19px;
+    cursor: pointer;
+  }
+  
+  form .check {
+    width: 60px;
+    margin: 0 auto 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  form .check .input {
+    margin: 0 5px 0 20px;
+  }
+  
+  form .check .span {
+    margin-top: 3px;
+    color: rgb(238, 238, 238);
+    font-size: 13px;
+  }
+  
+  form .btn {
+    color: #f8f7f7;
+    font-size: 20px;
+    width: 190px;
+    margin: auto;
+    background: #910048;
+    padding: 15px;
+    border-radius: 36px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  form .spn-regs {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  form .spn-regs a {
+    color: #910048;
+    text-decoration: none;
+  }
+  
+  form .spn-regs:hover a {
+    text-decoration: underline;
+  }
+  
+  .contanier .div-text {
+    height: 100vh;
+    width: 40%;
+    background-color: #910048;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .contanier .div-text p {
+    margin: 0 auto;
+    width: 60%;
+    color: #fbfbfb;
+    font-size: 14px;
+    line-height: 20;
+  }
